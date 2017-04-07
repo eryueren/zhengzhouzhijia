@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>用户注册 - 郑州之家</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='stylesheet' href='css/jobbole-wp-plugin.css' type='text/css'  />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+</head>
+    <body id="signup">
+    <div class="register-floater"></div>
+    <div class="register-container">
+            <div class="header">
+                <div class="register-logo">
+                    <!-- <a href="#"><img src="http://jbcdn2.b0.upaiyun.com/2015/05/jobbole-logo.png" /></a> -->
+                </div>
+            </div>
+            <div class="center">
+                <div class="wrapper clearfix">
+                    <label for="name">用户名（仅允许英文字母和数字）</label>
+                    <input type="text" id="jb_user_login" />
+                    <label for="name">昵称（允许用中文、英文字母和数字）</label>
+                    <input type="text" id="jb_user_display_name" />
+                    <label for="email">邮箱（接收初始登录密码）</label>
+                    <input type="text" id="jb_user_email" />
+                    <label for="password">验证码</label>
+					<input type="text" id="jb_verify_code"  style="width:100px;"/>
+                    <img class="captcha-code" src="http://www.jobbole.com/captcha.php" />
+					<a class="href-style refresh-captcha-code" title="换一个验证码" alt="换一个验证码"><i class="fa fa-refresh"></i></a>
+					<div class="form-bottom">
+                        <button id="jb_user_register_btn" class="btn btn-primary">注册</button>
+                        <label class="form-bottom-link">已经注册过？<a href="login.html" >请从这里登录 &raquo;</a></label>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>

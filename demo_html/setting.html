@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<head>
+<title>用户注册 - 郑州之家</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel='stylesheet' href='css/jobbole-wp-plugin.css' type='text/css'  />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <style>
+        body {
+            background: #ffffff         }
+        </style>
+</head>
+<body class="page page-id-5 page-template page-template-template-member page-template-template-member-php logged-in chrome">
+    <nav id="top-nav" class="menu-nav">
+        <div class="container">
+
+            <div class="grid-7 hide-on-480 hide-on-767">
+                <ul id="menu-main-menu" class="menu left">
+                    <li class="menu-item">
+                        <a href="">Our首页</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="http://group.jobbole.com">互联小组</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="http://date.jobbole.com"><i class="fa fa-heart-o pinkiconcolor"></i> 郑在恋爱</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid-5">
+                <ul id="menu-main-menu" class="menu">
+                    <li class="menu-item">
+                        <span><a href="#"><img src="image/nonemember.png" width="20" height="20" /> 个人中心</a></span>
+                        <ul class="sub-menu sf-js-enabled">
+                            <li class="menu-item"><a href="/members/maozhuxi"><i class="fa fa-home"></i> 个人主页</a></li>
+                            <li class="menu-item"><a href="/setting/"><i class="fa fa-cog"></i> 个人设置</a></li>
+                            <li class="menu-item"><a href="/changepwd/"><i class="fa fa-pencil-square-o"></i> 修改密码</a></li>
+                            <li class="menu-item"><a href="#"><i class="fa fa-sign-out"></i> 退出登录</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#"><i class="fa fa-pencil-square-o"></i> 发帖</a>
+                    </li>
+                    <li class="menu-item"><a class="href-style get-login-point-btn"><i class="fa fa-gift pinkiconcolor"></i> 签到</a></li>
+                    <li class="menu-item"><a title="帮助" href="#"><i class="fa fa-question-circle fa-lg"></i></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </nav>
+    <div id="wrapper" class="container">
+        <div class="grid-12" style="margin-top: 30px;">
+            <div class="nav-area">
+                <a href="#">Our首页</a> » 吴超
+                <div class="nav-search-box hide-on-767">
+                </div>
+            </div>
+        </div>
+        <div class="grid-4">
+            <div class="member-profile box">
+                <div>
+                    <span class="profile-img">
+                        <a href="#"><img height="100" width="100" class="rounded" src="http://jbcdn2.b0.upaiyun.com/2015/04/8fbdaaa5ea6d3b49c8c1c825aafeb5d9.png" /></a>
+                    </span>
+                    <span class="profile-title"><a href="#">maozhuxi</a></span>
+                    <span class="profile-social-icons">
+                    </span>
+                    <div class="clear"></div>
+                    <div class="profile-points">
+                        <li><strong><a href="#">0</a></strong><br/>声望</li>
+                        <li><strong>0</strong><br/>勋章</li>
+                        <li class="last"><strong><a href="#">10</a></strong><br/>积分</li>
+                    </div>
+                    <div class="profile-bio">简介还没来得及写 :）</div>
+                    <div class="profile-follow">关注（<a href="#">0</a>）<br/>
+                    </div>
+                    <div class="profile-follow">粉丝（<a href="#">0</a>）<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="grid-8">
+        <div class="member-status box">
+            <div class="box-title">个人设置</div>
+            <div class="member-status-nav">
+             <a href="http://www.jobbole.com/setting/basic"><span >基本</span></a>
+           </div>
+            <pan><b>请使用JPG或PNG格式</b>（禁止使用国家领导人照片作为头像）</span><br/>
+            <input id="user_thumbnail" name="user_thumbnail" value="http://jbcdn2.b0.upaiyun.com/2017/02/3fc8be3b22c6519c7644f0b2a13d0675.png" type="file" />
+            <br/>
+            <div id="change-profile-basic-form" class="setting-box">
+            <span><b>昵称（* 用于对外显示，@提示）</b></span><input id="change-profile-basic-display" currValue="二月人" value="二月人" type="text" /> <label style="display: none;" id="change-profile-basic-display-tip"></label> <br/>
+
+            <span><b>城市</b></span><input id="change-profile-basic-city" value="北京" type="text" /><br/>
+            <span><b>性别</b></span><br/>
+            <select id="change-profile-basic-gender">
+            <option  value="0">保密</option>
+            <option selected value="1">男生</option>
+            <option  value="2">女生</option>
+            </select><br/><br/>
+            <span><b>出生日期</b></span><br/>
+            <select id="change-profile-basic-birth-year">
+                        <option value="0">年</option>
+                            <option  value="2012">2012</option>
+                            <option  value="2011">2011</option>
+                            <option  value="2010">2010</option>
+                            <option  value="2009">2009</option>
+                            <option  value="2008">2008</option>
+                            <option  value="2007">2007</option>
+                            <option  value="2006">2006</option>
+                            <option  value="2005">2005</option>
+                            <option  value="2004">2004</option>
+                            <option  value="2003">2003</option>
+                            <option  value="2002">2002</option>
+                            <option  value="2001">2001</option>
+                            <option  value="2000">2000</option>
+                            <option  value="1999">1999</option>
+                            <option  value="1998">1998</option>
+                            <option  value="1997">1997</option>
+                            <option  value="1996">1996</option>
+                            <option  value="1995">1995</option>
+                            <option  value="1994">1994</option>
+                            <option  value="1993">1993</option>
+                            <option  value="1992">1992</option>
+                            <option selected value="1991">1991</option>
+                            <option  value="1990">1990</option>
+                            <option  value="1989">1989</option>
+                            <option  value="1988">1988</option>
+                            <option  value="1987">1987</option>
+                            <option  value="1986">1986</option>
+                            <option  value="1985">1985</option>
+                            <option  value="1984">1984</option>
+                            <option  value="1983">1983</option>
+                            <option  value="1982">1982</option>
+                            <option  value="1981">1981</option>
+                            <option  value="1980">1980</option>
+                            <option  value="1979">1979</option>
+                            <option  value="1978">1978</option>
+                            <option  value="1977">1977</option>
+                            <option  value="1976">1976</option>
+                            <option  value="1975">1975</option>
+                            <option  value="1974">1974</option>
+                            <option  value="1973">1973</option>
+                            <option  value="1972">1972</option>
+                            <option  value="1971">1971</option>
+                            <option  value="1970">1970</option>
+                            <option  value="1969">1969</option>
+                            <option  value="1968">1968</option>
+                            <option  value="1967">1967</option>
+                            <option  value="1966">1966</option>
+                            <option  value="1965">1965</option>
+                            <option  value="1964">1964</option>
+                            <option  value="1963">1963</option>
+                            <option  value="1962">1962</option>
+                            <option  value="1961">1961</option>
+                            <option  value="1960">1960</option>
+                            <option  value="1959">1959</option>
+                            <option  value="1958">1958</option>
+                            <option  value="1957">1957</option>
+                            <option  value="1956">1956</option>
+                            <option  value="1955">1955</option>
+                            <option  value="1954">1954</option>
+                            <option  value="1953">1953</option>
+                            <option  value="1952">1952</option>
+                            <option  value="1951">1951</option>
+                            <option  value="1950">1950</option>
+                            <option  value="1949">1949</option>
+                            <option  value="1948">1948</option>
+                            <option  value="1947">1947</option>
+                            <option  value="1946">1946</option>
+                            <option  value="1945">1945</option>
+                            <option  value="1944">1944</option>
+                            <option  value="1943">1943</option>
+                            <option  value="1942">1942</option>
+                            <option  value="1941">1941</option>
+                            <option  value="1940">1940</option>
+                            <option  value="1939">1939</option>
+                            <option  value="1938">1938</option>
+                            <option  value="1937">1937</option>
+                            <option  value="1936">1936</option>
+                            <option  value="1935">1935</option>
+                            <option  value="1934">1934</option>
+                            <option  value="1933">1933</option>
+                            <option  value="1932">1932</option>
+                            <option  value="1931">1931</option>
+                            <option  value="1930">1930</option>
+                            <option  value="1929">1929</option>
+                            <option  value="1928">1928</option>
+                            <option  value="1927">1927</option>
+                            <option  value="1926">1926</option>
+                            <option  value="1925">1925</option>
+                            <option  value="1924">1924</option>
+                            <option  value="1923">1923</option>
+                            <option  value="1922">1922</option>
+                            <option  value="1921">1921</option>
+                            <option  value="1920">1920</option>
+                            <option  value="1919">1919</option>
+                            <option  value="1918">1918</option>
+                            <option  value="1917">1917</option>
+                            <option  value="1916">1916</option>
+                            <option  value="1915">1915</option>
+                            <option  value="1914">1914</option>
+                            <option  value="1913">1913</option>
+                    </select>
+            <select id="change-profile-basic-birth-month">
+                            <option  value="1">1</option>
+                            <option  value="2">2</option>
+                            <option  value="3">3</option>
+                            <option  value="4">4</option>
+                            <option  value="5">5</option>
+                            <option selected value="6">6</option>
+                            <option  value="7">7</option>
+                            <option  value="8">8</option>
+                            <option  value="9">9</option>
+                            <option  value="10">10</option>
+                            <option  value="11">11</option>
+                            <option  value="12">12</option>
+                    </select>
+            <select id="change-profile-basic-birth-day">
+                            <option  value="1">1</option>
+                            <option  value="2">2</option>
+                            <option  value="3">3</option>
+                            <option  value="4">4</option>
+                            <option  value="5">5</option>
+                            <option  value="6">6</option>
+                            <option  value="7">7</option>
+                            <option  value="8">8</option>
+                            <option  value="9">9</option>
+                            <option  value="10">10</option>
+                            <option  value="11">11</option>
+                            <option  value="12">12</option>
+                            <option  value="13">13</option>
+                            <option selected value="14">14</option>
+                            <option  value="15">15</option>
+                            <option  value="16">16</option>
+                            <option  value="17">17</option>
+                            <option  value="18">18</option>
+                            <option  value="19">19</option>
+                            <option  value="20">20</option>
+                            <option  value="21">21</option>
+                            <option  value="22">22</option>
+                            <option  value="23">23</option>
+                            <option  value="24">24</option>
+                            <option  value="25">25</option>
+                            <option  value="26">26</option>
+                            <option  value="27">27</option>
+                            <option  value="28">28</option>
+                            <option  value="29">29</option>
+                            <option  value="30">30</option>
+                            <option  value="31">31</option>
+                    </select>
+            <br/><br/>
+            <span><b>简介（*）</b></span><textarea id="change-profile-basic-desc" placeholder="200字以内" rows="4" cols="100">精神病人思维广，二逼青年欢乐多。</textarea><br/>
+            <div class="member-status-nav">
+             <a href="http://www.jobbole.com/setting/basic"><span >网址</span></a>
+           </div>
+<label>以下均为选填项，用于个人主页显示</label><br/>
+               
+                <span><i class="fa fa-qq"></i> QQ</span><input placeholder="QQ号" id="change-profile-social-qq" value="1758577175" type="text" /><br/>
+                <span><i class="fa fa-linkedin"></i> LinkedIn</span><input placeholder="请用http开头" id="change-profile-social-linkedin" value="" type="text" /><br/>
+                <span><i class="fa fa-github"></i> GitHub</span><input placeholder="请用http开头" id="change-profile-social-github" value="" type="text" /><br/>
+                 <span><i class="fa fa-link"></i> 我的网站</span><input placeholder="请用http开头" id="change-profile-social-website" value="" type="text" /><br/>
+            <div><span id="change-profile-basic-btn" class="small-button">保存</span><label style="display: none;" id="change_profile_basic_tip"></label></div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+
+</div>
+
+    <footer>
+        <div class="container">
+            <div class="grid-4">
+                <div id="text-5" class="widget widget_text"><h3 class="widget-title">关于我们</h3>          <div class="textwidget"><p>郑州之家成立于 2010 年，由 <a href='#'>@黄余粮</a> 和 <a href=#>@黄利民</a> 联合发起，立志做最专业的IT互联网职业社区。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-4">
+                <div id="text-6" class="widget widget_text"><h3 class="widget-title">关注我们</h3>
+                   <div class="textwidget">
+                    <p>
+                        Email：<a href='mailto:bd@jobbole.com'>bd@Jobbole.com</a><br />
+                        QQ： 2302462408  （加好友请注明来意）</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="bottom">
+        <div class="container">
+            <div class="grid-12">
+                <p>&copy; 2017 郑州之家
+                    <span style="margin-left: 40px;">
+                        <a href="#">加入我们</a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-bullhorn"></i> 反馈</a>
+                    </span>
+                </p>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</footer>
+<script type='text/javascript' src='js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='js/shortcode.min.js?ver=4.5.7'></script>
+<script type='text/javascript' src='/wp-admin/js/media-upload.min.js?ver=4.5.7'></script>
+<script type='text/javascript' src='js/comment-reply.min.js?ver=4.5.7'></script>
+<script type='text/javascript' src='js/ready.js?ver=1.0'></script>
+<script type='text/javascript' src='js/easing.js?ver=1.3'></script>
+<script type='text/javascript' src='js/validate.js?ver=1.9.0'></script>
+<script type='text/javascript' src='js/touchwipe.js?ver=1.1.1'></script>
+<script type='text/javascript' src='js/caroufredsel.js?ver=5.5.0'></script>
+<script type='text/javascript' src='js/flexslider.js?ver=2.0'></script>
+<script type='text/javascript' src='js/jplayer.js?ver=2.1.0'></script>
+<script type='text/javascript' src='js/fitvids.js?ver=1.0'></script>
+<script type='text/javascript' src='js/effects.js?ver=1.11'></script>
+<script type='text/javascript' src='js/wp-embed.min.js?ver=4.5.7'></script>
+</body>
+</html>
