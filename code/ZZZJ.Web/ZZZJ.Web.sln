@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZZZJ.API", "ZZZJ.API\ZZZJ.API.csproj", "{B78AD2F8-0186-46EA-BD73-550DF4BBDAA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{18760A62-2419-4791-A5FD-04C4ED2B124B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{12B49E04-FD8E-4329-902B-CB5C2F85936B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{3768FBF6-25E1-4FF7-857F-54B419444E11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9ACDFD3B-E1CA-4A25-895B-624647F72AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZZZJ.Service", "ZZZJ.Service\ZZZJ.Service.csproj", "{446CBC54-A59B-4EB0-A8D8-769DDAF9732A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZZZJ.Models", "ZZZJ.Models\ZZZJ.Models.csproj", "{679B5B2B-AE77-409F-8E2E-9CBEE1906F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZZZJ.Interface", "ZZZJ.Interface\ZZZJ.Interface.csproj", "{FC869FFA-9B3B-4A7E-B45F-C59F16150700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B78AD2F8-0186-46EA-BD73-550DF4BBDAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78AD2F8-0186-46EA-BD73-550DF4BBDAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78AD2F8-0186-46EA-BD73-550DF4BBDAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78AD2F8-0186-46EA-BD73-550DF4BBDAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446CBC54-A59B-4EB0-A8D8-769DDAF9732A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446CBC54-A59B-4EB0-A8D8-769DDAF9732A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446CBC54-A59B-4EB0-A8D8-769DDAF9732A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446CBC54-A59B-4EB0-A8D8-769DDAF9732A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679B5B2B-AE77-409F-8E2E-9CBEE1906F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679B5B2B-AE77-409F-8E2E-9CBEE1906F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679B5B2B-AE77-409F-8E2E-9CBEE1906F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679B5B2B-AE77-409F-8E2E-9CBEE1906F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC869FFA-9B3B-4A7E-B45F-C59F16150700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC869FFA-9B3B-4A7E-B45F-C59F16150700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC869FFA-9B3B-4A7E-B45F-C59F16150700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC869FFA-9B3B-4A7E-B45F-C59F16150700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{446CBC54-A59B-4EB0-A8D8-769DDAF9732A} = {3768FBF6-25E1-4FF7-857F-54B419444E11}
+		{679B5B2B-AE77-409F-8E2E-9CBEE1906F9A} = {9ACDFD3B-E1CA-4A25-895B-624647F72AEB}
+		{FC869FFA-9B3B-4A7E-B45F-C59F16150700} = {12B49E04-FD8E-4329-902B-CB5C2F85936B}
+	EndGlobalSection
+EndGlobal
